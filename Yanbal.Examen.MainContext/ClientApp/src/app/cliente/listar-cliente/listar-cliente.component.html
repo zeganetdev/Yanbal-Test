@@ -1,0 +1,30 @@
+<h1 id="tableLabel">Listado de Clientes</h1>
+
+<p>&nbsp;</p>
+
+<p *ngIf="!clientes"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="clientes">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellidos</th>
+      <th>Correo</th>
+      <th>Fecha nacimiento</th>
+      <th>Dirección</th>
+      <th>Fecha registro</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cliente of clientes">
+      <td>{{ cliente.nombres }}</td>
+      <td>{{ cliente.apellidos }}</td>
+      <td>{{ cliente.correo }}</td>
+      <td>{{ (cliente.fechaNacimiento | date:'dd/MM/yyyy') || '-' }}</td>
+      <td>{{ cliente.direccion || '-' }}</td>
+      <td>{{ (cliente.fechaRegistro | date:'dd/MM/yyyy HH:mm') || '-' }}</td>
+      <td><input type="checkbox" [checked]="cliente.activo" disabled /></td>
+    </tr>
+  </tbody>
+</table>

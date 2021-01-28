@@ -1,0 +1,36 @@
+<form [formGroup]="form" autocomplete="off" novalidate>
+  <div class="row">
+    <div class="form-group col-sm-6">
+      <label for="formInputNombre">Nombre</label>
+      <input type="text" class="form-control" id="formInputNombre" placeholder="" maxlength="250" formControlName="nombres">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="formInputApellido">Apellidos</label>
+      <input type="text" class="form-control" id="formInputApellido" placeholder="" maxlength="250" formControlName="apellidos">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-group col-sm-6">
+      <label for="formInputCorreo">Correo</label>
+      <input type="email" pattern="^[^ ]+@[^ ]+\\.[a-z]{2,6}$" class="form-control" id="formInputCorreo" placeholder="" maxlength="320" formControlName="correo">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="formInputFechaNacimiento">Fecha nacimiento</label>
+      <input type="date" class="form-control" id="formInputFechaNacimiento" placeholder="" formControlName="fechaNacimiento">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-group col-sm-12">
+      <label for="formInputDireccion">Dirección</label>
+      <input type="text" class="form-control" id="formInputDireccion" placeholder="" maxlength="800" formControlName="direccion">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-sm-12 text-right">
+      <button type="button" class="btn btn-primary" (click)="save()">Guardar</button>
+    </div>
+  </div>
+</form>

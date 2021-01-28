@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Infra", "1.Infra", "{4455C551-42AE-4A49-8E06-D76ECCC2CA27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{2C0E57DB-CF32-4952-B2A0-DFA469A8B590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Application", "3.Application", "{6FFA8203-13CE-4CD6-87AA-8E258DB19854}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Service", "4.Service", "{88C29FB9-A3BA-48BF-A5C7-CD4C0A085924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanbal.Examen.Application.MainContext", "Yanbal.Examen.Application.MainContext\Yanbal.Examen.Application.MainContext.csproj", "{8D6B62B3-C2D5-4465-9599-391839E434BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{FC23EB39-8DF5-4089-B8C8-75D79768FC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanbal.Examen.Test.MainContext", "Yanbal.Examen.Test.MainContext\Yanbal.Examen.Test.MainContext.csproj", "{14FD16E4-C3A9-48FD-AAD5-7FDDB168A96B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanbal.Examen.Domain.MainContext", "Yanbal.Examen.Domain.MainContext\Yanbal.Examen.Domain.MainContext.csproj", "{F7CA1041-68E1-4F95-9E49-F26E92767544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.Data", "1.1.Data", "{AE419E40-2F08-45E7-9E45-49C543D2349B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanbal.Examen.Infra.Data.MainContext", "Yanbal.Examen.Infra.Data.MainContext\Yanbal.Examen.Infra.Data.MainContext.csproj", "{89A2F02C-9EB8-428D-82BF-A99CF12B92BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanbal.Examen.Infra.Data.Core", "Yanbal.Examen.Infra.Data.Core\Yanbal.Examen.Infra.Data.Core.csproj", "{94A342A3-6BE7-4FFB-BAA5-610457DBD46D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanbal.Examen.Domain.Core", "Yanbal.Examen.Domain.Core\Yanbal.Examen.Domain.Core.csproj", "{900127E1-6DE0-431F-AB95-09E17D5D408D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanbal.Examen.MVC.MainContext", "Yanbal.Examen.Application.MVC.MainContext\Yanbal.Examen.MVC.MainContext.csproj", "{B9008C8F-C232-4E1B-B6C9-A37AED58772E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D6B62B3-C2D5-4465-9599-391839E434BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6B62B3-C2D5-4465-9599-391839E434BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6B62B3-C2D5-4465-9599-391839E434BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6B62B3-C2D5-4465-9599-391839E434BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FD16E4-C3A9-48FD-AAD5-7FDDB168A96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FD16E4-C3A9-48FD-AAD5-7FDDB168A96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FD16E4-C3A9-48FD-AAD5-7FDDB168A96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FD16E4-C3A9-48FD-AAD5-7FDDB168A96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CA1041-68E1-4F95-9E49-F26E92767544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CA1041-68E1-4F95-9E49-F26E92767544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CA1041-68E1-4F95-9E49-F26E92767544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CA1041-68E1-4F95-9E49-F26E92767544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A2F02C-9EB8-428D-82BF-A99CF12B92BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A2F02C-9EB8-428D-82BF-A99CF12B92BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A2F02C-9EB8-428D-82BF-A99CF12B92BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A2F02C-9EB8-428D-82BF-A99CF12B92BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A342A3-6BE7-4FFB-BAA5-610457DBD46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A342A3-6BE7-4FFB-BAA5-610457DBD46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A342A3-6BE7-4FFB-BAA5-610457DBD46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A342A3-6BE7-4FFB-BAA5-610457DBD46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900127E1-6DE0-431F-AB95-09E17D5D408D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900127E1-6DE0-431F-AB95-09E17D5D408D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900127E1-6DE0-431F-AB95-09E17D5D408D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900127E1-6DE0-431F-AB95-09E17D5D408D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9008C8F-C232-4E1B-B6C9-A37AED58772E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9008C8F-C232-4E1B-B6C9-A37AED58772E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9008C8F-C232-4E1B-B6C9-A37AED58772E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9008C8F-C232-4E1B-B6C9-A37AED58772E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D6B62B3-C2D5-4465-9599-391839E434BB} = {6FFA8203-13CE-4CD6-87AA-8E258DB19854}
+		{14FD16E4-C3A9-48FD-AAD5-7FDDB168A96B} = {FC23EB39-8DF5-4089-B8C8-75D79768FC2A}
+		{F7CA1041-68E1-4F95-9E49-F26E92767544} = {2C0E57DB-CF32-4952-B2A0-DFA469A8B590}
+		{AE419E40-2F08-45E7-9E45-49C543D2349B} = {4455C551-42AE-4A49-8E06-D76ECCC2CA27}
+		{89A2F02C-9EB8-428D-82BF-A99CF12B92BE} = {AE419E40-2F08-45E7-9E45-49C543D2349B}
+		{94A342A3-6BE7-4FFB-BAA5-610457DBD46D} = {AE419E40-2F08-45E7-9E45-49C543D2349B}
+		{900127E1-6DE0-431F-AB95-09E17D5D408D} = {2C0E57DB-CF32-4952-B2A0-DFA469A8B590}
+		{B9008C8F-C232-4E1B-B6C9-A37AED58772E} = {88C29FB9-A3BA-48BF-A5C7-CD4C0A085924}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {398D5FB2-9321-42E1-9241-0A5D1DCBAB5E}
+	EndGlobalSection
+EndGlobal

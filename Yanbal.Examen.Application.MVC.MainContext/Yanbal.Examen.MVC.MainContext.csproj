@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yanbal.Examen.Application.MainContext\Yanbal.Examen.Application.MainContext.csproj" />
+    <ProjectReference Include="..\Yanbal.Examen.Domain.Core\Yanbal.Examen.Domain.Core.csproj" />
+    <ProjectReference Include="..\Yanbal.Examen.Infra.Data.MainContext\Yanbal.Examen.Infra.Data.MainContext.csproj" />
+  </ItemGroup>
+
+</Project>
